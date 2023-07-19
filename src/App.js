@@ -6,7 +6,7 @@ import Whatsits from './Components/Whatsits/index';
 import Contac from './Components/Contact/index';
 import Footer from './Components/Footer/index';
 import Galery from './Components/Galery/index';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 
 function App() {
@@ -15,18 +15,17 @@ function App() {
       <NavBar />
       <Router>
         <Routes>
-          {/* <NavBar /> */}
-          <Route exact path="/" element={<Home />} />
-          <Route path="/whatsits" element={<Whatsits />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/events/galery" element={<Galery />} />
-          <Route path="/contato" element={<Contac />} />
+            <Route exact path="/#home" element={<Home />} />
+            <Route exact path="/#whatsits" element={<Whatsits />} />
+            <Route exact path="/#events" element={<Events />} />
+            <Route exact path="/events/galery" element={<Galery />} />
+            <Route exact path="/#contato" element={<Contac />} />
         </Routes>
       </Router>
-      {/* <Home />
+      <Home />
       <Whatsits />
       <Events />
-      <Contac /> */}
+      <Contac />
       <Footer /> 
 
     </div>
