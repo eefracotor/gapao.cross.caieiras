@@ -7,24 +7,24 @@ export default function Events() {
         <><div id='events' className='events'>
             <h2 className='eventsTitle'>Medias</h2>
             <div className='container'>
-                <a href='' className='galery-link'>
+                <a href='#' className='galery-link'>
                     <div className='card'>
-                        <img className='imagen' src={homeBk1} />
+                        <img className='imagen' src={homeBk1} alt='teste' />
                     </div>
                 </a>
-                <a href='' className='galery-link'>
+                <a href='#' className='galery-link'>
                     <div className='card'>
-                        <img className='imagen' src={homeBk1} />
+                        <img className='imagen' src={homeBk1} alt='teste' />
                     </div>
                 </a>
-                <a href='' className='galery-link'>
+                <a href='#' className='galery-link'>
                     <div className='card'>
-                        <img className='imagen' src={homeBk1} />
+                        <img className='imagen' src={homeBk1} alt='teste' />
                     </div>
                 </a>
-                <a href='' className='galery-link'>
+                <a href='#' className='galery-link'>
                     <div className='card'>
-                        <img className='imagen' src={homeBk1} />
+                        <img className='imagen' src={homeBk1} alt='teste' />
                     </div>
                 </a>
                 {/* <a href='' className='galery-link'>
