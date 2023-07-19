@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/Navbar';
+import Home from './Components/Home';
+import Events from './Components/Events';
+import Whatsits from './Components/Whatsits';
+import Contac from './Components/Contact';
+import Footer from './Components/Footer';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Galery from './Components/Galery';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <Router>
+        <Routes>
+          {/* <NavBar /> */}
+          <Route exact path="/" element={<Home />} />
+          <Route path="/whatsits" element={<Whatsits />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/events/galery" element={<Galery />} />
+          <Route path="/contato" element={<Contac />} />
+        </Routes>
+      </Router>
+      {/* <Home />
+      <Whatsits />
+      <Events />
+      <Contac /> */}
+      <Footer /> 
+
     </div>
   );
 }
