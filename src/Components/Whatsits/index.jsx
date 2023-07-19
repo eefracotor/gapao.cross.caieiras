@@ -1,5 +1,5 @@
 import React from 'react';
-import './Whatsits.css'
+import '../Whatsits/index.css'
 
 export default function Whatsits() {
     return(

@@ -1,6 +1,6 @@
 import React from 'react';
-import './Events.css';
-import homeBk1 from '../assets/images/homeBK1.jpg';
+import '../Events/index.css';
+import homeBk1 from '../../assets/images/homeBK1.jpg';
 
 export default function Events() {
     return(

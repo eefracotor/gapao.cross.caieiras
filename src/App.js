@@ -1,12 +1,12 @@
 import './App.css';
-import NavBar from './Components/Navbar';
-import Home from './Components/Home';
-import Events from './Components/Events';
-import Whatsits from './Components/Whatsits';
-import Contac from './Components/Contact';
-import Footer from './Components/Footer';
+import NavBar from './Components/Navbar/index';
+import Home from './Components/Home/index';
+import Events from './Components/Events/index';
+import Whatsits from './Components/Whatsits/index';
+import Contac from './Components/Contact/index';
+import Footer from './Components/Footer/index';
+import Galery from './Components/Galery/index';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Galery from './Components/Galery';
 
 
 function App() {

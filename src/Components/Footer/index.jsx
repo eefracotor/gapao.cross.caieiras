@@ -1,8 +1,8 @@
 import React from 'react';
-import './Footer.css';
-import github from "../assets/Icons/github.svg";
-import linkedin from '../assets/Icons/linkedin.svg'
-import briefcase from '../assets/Icons/briefcase.svg'
+import '../Footer/index.css';
+import github from "../../assets/Icons/github.svg";
+import linkedin from '../../assets/Icons/linkedin.svg'
+import briefcase from '../../assets/Icons/briefcase.svg'
 
 export default function Footer() {
     return(
