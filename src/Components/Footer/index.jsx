@@ -9,9 +9,9 @@ export default function Footer() {
         <footer className='footer'>
             <div className='footer-galpao'></div>
             <div className='developer'>
-                <h3>All Rights Reserved for Efrain Conopoy. 2023 - Designed and Developed by Efrain Conopoy.</h3>
+                <h3>All Rights Reserved for Eefracotor. 2023 - Designed and Developed by Eefracotor.</h3>
                 <div className='social-footer'>
-                    <a href='projeto-theta.vercel.app' target='_blank' rel='noreferrer'><img src={briefcase} className='icon-social-footer' alt='Logo de um portfolio' /></a>
+                    <a href='https://projeto-theta.vercel.app' target='_blank' rel='noreferrer'><img src={briefcase} className='icon-social-footer' alt='Logo de um portfolio' /></a>
                     <a href='https://github.com/eefracotor' target='_blank' rel='noreferrer'><img src={github} className='icon-social-footer' alt='Logo de GitHub ' /></a>
                     <a href='https://www.linkedin.com/in/eefracotor/' target='_blank' rel='noreferrer'><img src={linkedin} className='icon-social-footer' alt='Logo de LinkedIn' /></a>
                 </div>
