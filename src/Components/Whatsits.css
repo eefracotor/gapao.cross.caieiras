@@ -1,0 +1,20 @@
+.whatsits {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(3, 180, 121);
+    display: flex;
+    justify-content: center;
+}
+
+.containerWhatsits {
+    margin-top: 15vh;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.containerWhatsits h2 {
+    text-align: center;
+}
