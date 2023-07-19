@@ -15,13 +15,13 @@ export default function NavBar() {
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="/">Home</a>
                             </li><li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="https://dancing-custard-a6d5cb.netlify.app/whatsits">O que é o Corssfit?</a>
+                                <a className="nav-link active" aria-current="page" href="/whatsits">O que é o Corssfit?</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="https://dancing-custard-a6d5cb.netlify.app/events">Eventos</a>
+                                <a className="nav-link active" aria-current="page" href="/events">Eventos</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="https://dancing-custard-a6d5cb.netlify.app/contato">Contato</a>
+                                <a className="nav-link active" href="/contato">Contato</a>
                             </li>
                             {/* <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
