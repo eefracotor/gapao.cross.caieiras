@@ -1,39 +1,39 @@
 .footer {
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     background-color: rgb(36, 36, 36);
     color: #c1c1c1;
-    /* text-align: center;
-    display: flex;
-    justify-content: space-evenly; */
-    /* align-items: center; */
 }
 
 .footer-galpao {
     width: 100%;
-    height: 12.5vh;
+    height: 15vh;
 }
 
 .developer{
-    /* margin:auto; */
+    margin:auto;
     background-color: #c6c6c6;
     border-top: 1px solid #c1c1c1;
     width: 100%;
-    height: 7.5vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .developer h3 {
     font-size: small;
     color: #616161;
-    margin-right: 25px;
+    margin: 0px auto;
+    width: 80%;
+    text-align: center;
 }
 
 .social-footer {
-    width: 10vw;
+    width: 35vw;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
