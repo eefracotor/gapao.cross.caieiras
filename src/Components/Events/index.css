@@ -22,7 +22,7 @@ img {
     flex-wrap: wrap;
 }
 
-.galery-link {
+.gallery-link {
     transition:all .5s ease-in-out;
     margin: 20px auto;
     filter: drop-shadow(15px 15px 10px rgba(0,0,0,0.75));
@@ -35,7 +35,7 @@ img {
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
 }
 
-.galery-link:active {
+.gallery-link:active {
     -webkit-transform:scale(1.3);transform:scale(1.3);
 }
 
@@ -47,13 +47,13 @@ img {
 }
 .card:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
 
-#galeryContainer {
+#galleryContainer {
     width: 100%;
     display: flex;
     position: relative;
 }
 
-.return-galery {
+.return-gallery {
     position: absolute;
     /* background-color: rgb(255, 0, 119); */
     right: 35px;
